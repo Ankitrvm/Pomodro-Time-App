@@ -1,0 +1,62 @@
+.headerLogin {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #403941;
+  padding: 0 2rem;
+}
+
+.headerLogout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #403941;
+  padding: 0 2rem;
+}
+
+.headerLogout h1 {
+  color: white;
+}
+
+.headerLogin h1 {
+  color: white;
+}
+
+.headerLogin p {
+  color: white;
+  padding-right: 15px;
+}
+
+.btnMail {
+  display: flex;
+  flex-direction: row;
+  row-gap: 20px;
+}
+
+.btn {
+  border-radius: 28px;
+  font-size: 17px;
+  background: #403941;
+  padding: 0.65rem 2rem;
+  text-decoration: none;
+  font: inherit;
+  border: 1px solid #d8d0da;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #b3092ea8;
+  text-decoration: none;
+  border: 1px solid #b3092ea8;
+}
